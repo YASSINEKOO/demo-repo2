@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <form method="post">
+            <fieldset>
+                <legend><strong>Vos coordonnées</strong></legend>
+                <label>Nom :</label>
+                <input type="text" name="full name" value="Votre nom" maxlength="10" size="8">
+                <br>
+                <label>Prenom :</label>
+                <input type="text" name="full name" value="Votre prenom" maxlength="10" size="8">
+                <br>
+                <label>Mail :</label>
+                <input type="email" name="email" value="votre adresse electronique">
+                <br>
+                <label>Code :</label>
+                <input type="password" name="pd" value="votre mot de pasee">
+                <br>
+                <input type="radio" name="genre" value="Homme" checked><label>Homme</label>
+                <input type="radio" name="genre" value="Femme"><label>Femme</label>
+                <br>
+                <select name="nationalité" size="1">
+                    <option>Marocaine</option>
+                    <option>Algeriane</option>
+                    <option>Egyptaine</option>
+                    <option>Chinoise</option>
+                    <option>Japonaise</option>
+                    <option>Francaise</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Vos goûts</strong></legend>
+                <input type="checkbox" value="Pommes" name="gout">Pommes
+                <br>
+                <input type="checkbox" value="Poires" name="gout">Poires
+                <br>
+                <input type="checkbox" value="Scoubidous" name="gout">Scoubidous
+                <br>
+                <textarea rows="5" cols="100" name="commentaire">ecrire quelque chose</textarea>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Envoyer nous votre photo</strong></legend>
+                <input type="file">
+                <br>
+                <input type="reset" value="Effacer" name="para photo">
+                <input type="submit" value="Envoyer" name="para photo">
+            </fieldset>
+        </form>
+    </body>
+</html>
